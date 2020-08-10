@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/braspag/oauth_ios.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source_files  = "BraspagOAuth/BraspagOAuth/**/*.{h,m,swift,framework}"
+  spec.source_files  = "BraspagOAuth/**/*.{h,m,swift,framework}"
   spec.exclude_files = "Example/**/*.*"
 
 end
