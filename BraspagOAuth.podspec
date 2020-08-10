@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   O SDK foi criado para viabilizar o reuso da autenticação com a Braspag. Todos os locais que usarem autenticação, poderão, de forma simples e prática, utilizar esse framework.
                    DESC
 
-  spec.homepage     = "https://github.com/braspag/oauth-ios"
+  spec.homepage     = "https://github.com/braspag/oauth_ios"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.license      = "MIT"
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "https://github.com/braspag/oauth-ios.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/braspag/oauth_ios.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source_files  = "BraspagOAuth/BraspagOAuth/**/*.{h,m,swift,framework}"
